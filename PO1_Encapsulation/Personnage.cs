@@ -12,6 +12,7 @@ namespace PO1_Encapsulation
         int pointDeVies;
         int pointDePuissance;
 
+
         public string Nom { get => nom; }
         public int PointDeVies
         {
@@ -22,6 +23,10 @@ namespace PO1_Encapsulation
                 {
                     pointDeVies = 0;
                 }
+                //else if (value > )
+                //{
+
+                //}
                 else
                 {
                     pointDeVies = value;
